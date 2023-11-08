@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@400;600;700&family=Roboto:wght@400;700&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  --bs-gutter-x: 0px;
+}
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item > img {
+  object-fit: contain;
+}
+
+.banner {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+#siente-musica > p {
+  margin: 32px 0;
+}
+
+/* #siente-musica > img {
+  max-height: 400px;
+} */
+
+.siente-musica-img {
+  max-height: 100%;
+}
+
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: Medium;
+  font-size: 64px;
+  width: 500px;
+}
+
+.mas {
+  width: 209px;
+  height: 49px;
+  background-color: #c03a3a;
+  font-family: "Roboto Slab", serif;
+  border-radius: 6px;
+  margin-top: 32px;
+}
+
+.mas:hover {
+  background-color: #a32e2e;
+}
+
+.comprar {
+  width: 150px;
+  height: 50px;
+  background-color: #545f71;
+  border: none;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 6px;
+}
+
+.comprar:hover {
+  background-color: #3c4554;
+}
+
+.nombre-auri {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  width: 250px;
+}
+
+.precio {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.m {
+  margin: 0px 70px 40px 70px;
+}
+
+.auris-banner {
+  width: 100%;
+  height: auto;
+}
+
+#productos-estrella > section > div > img {
+  height: 240px;
+  width: auto;
+}
+
+#productos-estrella > section > div > img,
+h4 {
+  margin-bottom: 20px;
+}
+
+#productos-estrella > section > div > h4,
+p {
+  margin-bottom: 8px;
+}
+
+#productos-estrella > section > div > p,
+button {
+  margin-bottom: 20px;
+}
+
+svg > path {
+  width: 100vw;
+}
+
+.informacion-fabricante {
+  max-width: 500px;
+}
+
+.informacion-fabricante > h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.informacion-fabricante > ul > li {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+div.fotos-auris-container {
+  max-height: 700px;
+  overflow: hidden;
+}
+img.foto-auris-larga {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+img.foto-auris {
+  object-fit: cover;
+  width: 100%;
+  max-height: 350px;
+}
+
+.svg-bottom {
+  position: absolute;
+  margin-top: -10px;
+}
+
+.form-control{
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+form.form{
+  border: none;
+  max-width:800px;
+  margin:0 auto;
+}
+
+#productos-estrella {
+  background-color: #f3f3f3;
+}
+
+footer > div > figure > img{
+  height: 250px;
+  width: 250px;
+}
+
+@media (max-width: 1024px) {
+  .carousel-item {
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 100%;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .auris-banner {
+    width: 70%;
+  }
+  .comprar {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .nombre-auri {
+    font-size: 22px;
+    width: 200px;
+  }
+  .precio {
+    font-size: 18px;
+  }
+  .informacion-fabricante > h4 {
+    font-size: 1.4rem;
+  }
+  footer{
+    text-align:center;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 30px;
+  }
+  h1{
+    font-size: 22px;
+  }
+  div.fotos-auris-container {
+    max-height: none;
+  }
+  img.foto-auris-larga {
+    max-height: 350px;
+  }
+  .caracteristicas-img {
+    width: 90%;
+  }
+}
