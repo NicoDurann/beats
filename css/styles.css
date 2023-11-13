@@ -29,7 +29,8 @@ p {
 }
 
 .c-item {
-  height: 90vh;
+  max-height: 90vh;
+  min-height: 90%;
 }
 
 .c-img {
@@ -56,10 +57,9 @@ p {
 }
 
 h3 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: Medium;
-  font-size: 64px;
-  width: 500px;
+  font-size: 24px;
 }
 
 .mas {
@@ -196,12 +196,12 @@ footer > div > figure > img {
 }
 
 @media (max-width: 1024px) {
-  .carousel-item {
+  .c-item {
     height: 100%;
   }
 }
 @media (max-width: 768px) {
-  .carousel-item {
+  .c-item {
     height: 100%;
   }
   h1 {
