@@ -55,8 +55,8 @@
     <!-- Slider -->
     <div id="sliderInicio" class="carousel slide">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <picture>
+        <div class="carousel-item active c-item">
+          <picture class="c-img">
             <source media="(min-width: 1024px)" srcset="img/All-Day-Play.jpg" />
             <source
               media="(min-width: 768px)"
@@ -69,8 +69,8 @@
             />
           </picture>
         </div>
-        <div class="carousel-item">
-          <picture>
+        <div class="carousel-item c-item">
+          <picture class="c-img">
             <source
               media="(min-width: 1024px)"
               srcset="img/Noise-Blocking.jpg"
@@ -86,8 +86,8 @@
             />
           </picture>
         </div>
-        <div class="carousel-item">
-          <picture>
+        <div class="carousel-item c-item">
+          <picture class="c-img">
             <source
               media="(min-width: 992px)"
               srcset="img/Sealed-For-Sound.jpg"
@@ -205,7 +205,7 @@
     <!-- Productos Estrella -->
     <svg
       class="svg-top"
-      id="wave"
+      id="wave-top"
       style="transform: rotate(0deg); transition: 0.3s"
       viewBox="0 0 1440 100"
       version="1.1"
@@ -533,14 +533,14 @@
       <!-- Fotos -->
       <svg
         class="svg-bottom"
-        id="wave"
+        id="wave-bottom"
         style="transform: rotate(180deg); transition: 0.3s"
         viewBox="0 0 1440 100"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
-          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+          <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
             <stop stop-color="rgba(243, 243, 243, 1)" offset="0%"></stop>
             <stop stop-color="rgba(243, 243, 243, 1)" offset="100%"></stop>
           </linearGradient>
@@ -627,45 +627,45 @@
       <h2 class="text-center">Contacto</h2>
       <form method="post" class="form container-sm">
         <div class="mb-3 pt-3">
-          <label for="exampleFormControlInput1" class="form-label"
+          <label for="FormName" class="form-label"
             >Nombre</label
           >
           <input
-            type="name"
+            type="text"
             class="form-control"
-            id="exampleFormControlInput1"
+            id="FormName"
             placeholder="ej Agustin"
           />
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"
+          <label for="FormEmail" class="form-label"
             >Dirección de Email</label
           >
           <input
             type="email"
             class="form-control"
-            id="exampleFormControlInput1"
+            id="FormEmail"
             placeholder=" ej nombre@gmail.com"
           />
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"
+          <label for="FormNum" class="form-label"
             >Telefono</label
           >
           <input
-            type="telefono"
+            type="tel"
             class="form-control"
-            id="exampleFormControlInput1"
+            id="FormNum"
             placeholder="ej 1173984638"
           />
         </div>
         <div class="mb-3 pb-3">
-          <label for="exampleFormControlTextarea1" class="form-label"
+          <label for="FormCom" class="form-label"
             >Dejanos tu comentarios y preguntas
           </label>
           <textarea
             class="form-control"
-            id="exampleFormControlTextarea1"
+            id="FormCom"
             rows="3"
           ></textarea>
         </div>
@@ -681,40 +681,37 @@
     >
       <div>
         <figure>
-          <img src="" alt="Nico Duran" />
+          <img src="img/nico.png" alt="Nico Duran" />
         </figure>
         <div>
-          <ul class="list-unstyled">
-            <li>Nombre: Nicolás</li>
-            <li>Apellido: Durán</li>
-            <li>Edad: 20</li>
-            <li>Correo Electrónico: nicolas.duran@davinci.edu.ar</li>
+          <ul class="list-unstyled text-center">
+            <li>Nicolás Durán</li>
+            <li>20 años</li>
+            <li>nicolas.duran@davinci.edu.ar</li>
           </ul>
         </div>
       </div>
       <div>
         <figure>
-          <img src="" alt="Joaquin DiCio" />
+          <img src="img/jaoko.png" alt="Joaquin DiCio" />
         </figure>
         <div>
-          <ul class="list-unstyled">
-            <li>Nombre: Joaquin</li>
-            <li>Apellido:Di cio</li>
-            <li>Edad:20</li>
-            <li>Correo Electrónico:joacodicio@gmail.com</li>
+          <ul class="list-unstyled text-center">
+            <li>Joaquin Di cio</li>
+            <li>20 años</li>
+            <li>joacodicio@gmail.com</li>
           </ul>
         </div>
       </div>
       <div>
         <figure>
-          <img src="" alt="Sol Ameijeira" />
+          <img src="img/sol.png" alt="Sol Ameijeira" />
         </figure>
         <div>
-          <ul class="list-unstyled">
-            <li>Nombre: Maria Sol</li>
-            <li>Apellido: Ameijeira</li>
-            <li>Edad: 24</li>
-            <li>Correo Electrónico:maria.ameijeira@davinci.edu.ar</li>
+          <ul class="list-unstyled text-center">
+            <li>Maria Sol Ameijeira</li>
+            <li>24 años</li>
+            <li>maria.ameijeira@davinci.edu.ar</li>
           </ul>
         </div>
       </div>

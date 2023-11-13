@@ -28,13 +28,13 @@ p {
   font-size: 20px;
 }
 
-.carousel-item {
-  height: 100%;
-  width: 100%;
+.c-item {
+  height: 90vh;
 }
 
-.carousel-item > img {
-  object-fit: contain;
+.c-img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .banner {
@@ -173,24 +173,24 @@ img.foto-auris {
   margin-top: -10px;
 }
 
-.form-control{
+.form-control {
   border: none;
   border-bottom: 1px solid black;
   border-radius: 0px;
   background-color: transparent;
 }
 
-form.form{
+form.form {
   border: none;
-  max-width:800px;
-  margin:0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 #productos-estrella {
   background-color: #f3f3f3;
 }
 
-footer > div > figure > img{
+footer > div > figure > img {
   height: 250px;
   width: 250px;
 }
@@ -231,8 +231,8 @@ footer > div > figure > img{
   .informacion-fabricante > h4 {
     font-size: 1.4rem;
   }
-  footer{
-    text-align:center;
+  footer {
+    text-align: center;
   }
 }
 
@@ -240,7 +240,7 @@ footer > div > figure > img{
   h2 {
     font-size: 30px;
   }
-  h1{
+  h1 {
     font-size: 22px;
   }
   div.fotos-auris-container {
