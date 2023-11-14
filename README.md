@@ -23,4 +23,4 @@
 <p>To run this project locally, clone the repository and open the index.html file in your preferred web browser.</p>
 
 <h2>Credits</h2>
-<p>This page was created by <strong>Nicolás Durán</strong>, <strong>María Sol Amaijeira</strong> and <strong>Joaquin DiCio</strong> as a project for DaVinci.</p>
+<p>This page was created by <strong>Nicolás Durán</strong>, <strong>Maria Sol Ameijeira</strong> and <strong>Joaquin DiCio</strong> as a project for DaVinci.</p>
