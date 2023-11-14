@@ -22,9 +22,9 @@
     <header>
       <nav class="navbar p-3 navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><h1 class="m-0">Beats Electronics</h1></a
-          >
+          <h1 class="m-0">
+            <a class="navbar-brand titulo" href="#">Beats Electronics</a>
+          </h1>
           <button
             class="navbar-toggler m-0"
             type="button"
@@ -52,615 +52,173 @@
     </header>
     <!-- Fin NavBar -->
 
-    <!-- Slider -->
-    <div id="sliderInicio" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <picture class="c-img">
-            <source media="(min-width: 1024px)" srcset="img/All-Day-Play.jpg" />
-            <source
-              media="(min-width: 768px)"
-              srcset="img/All-Day-Play-tablet.jpg"
-            />
-            <img
-              src="img/All-Day-Play-mobile.jpg"
-              class="d-block w-100"
-              alt="Una mujer en la naturaleza usando los auriculares"
-            />
-          </picture>
+    <main>
+      <!-- Slider -->
+      <div id="sliderInicio" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <picture class="c-img">
+              <source
+                media="(min-width: 1024px)"
+                srcset="img/All-Day-Play.jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="img/All-Day-Play-tablet.jpg"
+              />
+              <img
+                src="img/All-Day-Play-mobile.jpg"
+                class="d-block w-100"
+                alt="Una mujer en la naturaleza usando los auriculares"
+              />
+            </picture>
+          </div>
+          <div class="carousel-item c-item">
+            <picture class="c-img">
+              <source
+                media="(min-width: 1024px)"
+                srcset="img/Noise-Blocking.jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="img/Noise-Blocking-tablet.jpg"
+              />
+              <img
+                src="img/Noise-Blocking-mobile.jpg"
+                class="d-block w-100"
+                alt="La misma mujer pero una toma mas de cerca a los auriculares"
+              />
+            </picture>
+          </div>
+          <div class="carousel-item c-item">
+            <picture class="c-img">
+              <source
+                media="(min-width: 992px)"
+                srcset="img/Sealed-For-Sound.jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="img/Sealed-For-Sound-tablet.jpg"
+              />
+              <img
+                src="img/Sealed-For-Sound-mobile.jpg"
+                class="d-block w-100"
+                alt="Auriculares beats sobre unas rocas en la naturaleza"
+              />
+            </picture>
+          </div>
         </div>
-        <div class="carousel-item c-item">
-          <picture class="c-img">
-            <source
-              media="(min-width: 1024px)"
-              srcset="img/Noise-Blocking.jpg"
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="img/Noise-Blocking-tablet.jpg"
-            />
-            <img
-              src="img/Noise-Blocking-mobile.jpg"
-              class="d-block w-100"
-              alt="La misma mujer pero una toma mas de cerca a los auriculares"
-            />
-          </picture>
-        </div>
-        <div class="carousel-item c-item">
-          <picture class="c-img">
-            <source
-              media="(min-width: 992px)"
-              srcset="img/Sealed-For-Sound.jpg"
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="img/Sealed-For-Sound-tablet.jpg"
-            />
-            <img
-              src="img/Sealed-For-Sound-mobile.jpg"
-              class="d-block w-100"
-              alt="Auriculares beats sobre unas rocas en la naturaleza"
-            />
-          </picture>
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#sliderInicio"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#sliderInicio"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#sliderInicio"
-        data-bs-slide="prev"
+      <!-- Fin Slider -->
+
+      <!-- Historia -->
+      <section id="historia" class="d-flex justify-content-center pb-5">
+        <div class="ps-5 pe-5">
+          <h2 class="m-0 py-5">La Historia y Filosofía de Beats Electronics</h2>
+          <p>
+            Beats Electronics, una icónica marca de audio
+            <strong>fundada en 2006 por el renombrado rapero Dr. Dre</strong> y
+            el ejecutivo de la industria musical Jimmy Iovine,
+            <strong
+              >ha revolucionado la forma en que experimentamos la
+              música.</strong
+            >
+            Beats se ha destacado por su compromiso inquebrantable con la
+            excelencia sonora, ofreciendo productos que no solo brindan un
+            sonido excepcional, sino que
+            <strong
+              >también se han convertido en verdaderos accesorios de
+              moda</strong
+            >, atrayendo a músicos, atletas y amantes de la música de todo el
+            mundo.
+          </p>
+          <p>
+            Estos auriculares inalámbricos no solo te permiten
+            <strong>disfrutar de música sin límites</strong>, sino que también
+            reflejan el compromiso de Beats con la creación de una experiencia
+            auditiva extraordinaria. Beats Electronics
+            <strong
+              >sigue siendo un líder indiscutible en la industria del
+              audio</strong
+            >, continuando su legado de innovación y pasión por la música.
+          </p>
+        </div>
+      </section>
+      <!-- Fin Historia -->
+
+      <!-- Banner -->
+      <picture>
+        <source media="(min-width: 1024px)" srcset="img/sonido-banner.png" />
+        <img
+          src="img/sonido-banner-tablet.png"
+          class="d-block w-100"
+          alt="Banner con el texto sonido impresionante"
+        />
+      </picture>
+      <!-- Fin Banner -->
+
+      <!-- Siente La Musica -->
+      <section
+        id="siente-musica"
+        class="d-flex flex-column flex-lg-row align-items-center justify-content-center pb-5"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#sliderInicio"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- Fin Slider -->
-
-    <!-- Historia -->
-    <section id="historia" class="d-flex justify-content-center pb-5">
-      <div class="ps-5 pe-5">
-        <h2 class="m-0 py-5">La Historia y Filosofía de Beats Electronics</h2>
-        <p>
-          Beats Electronics, una icónica marca de audio
-          <strong>fundada en 2006 por el renombrado rapero Dr. Dre</strong> y el
-          ejecutivo de la industria musical Jimmy Iovine,
-          <strong
-            >ha revolucionado la forma en que experimentamos la música.</strong
-          >
-          Beats se ha destacado por su compromiso inquebrantable con la
-          excelencia sonora, ofreciendo productos que no solo brindan un sonido
-          excepcional, sino que
-          <strong
-            >también se han convertido en verdaderos accesorios de moda</strong
-          >, atrayendo a músicos, atletas y amantes de la música de todo el
-          mundo.
-        </p>
-        <p>
-          Estos auriculares inalámbricos no solo te permiten
-          <strong>disfrutar de música sin límites</strong>, sino que también
-          reflejan el compromiso de Beats con la creación de una experiencia
-          auditiva extraordinaria. Beats Electronics
-          <strong
-            >sigue siendo un líder indiscutible en la industria del
-            audio</strong
-          >, continuando su legado de innovación y pasión por la música.
-        </p>
-      </div>
-    </section>
-    <!-- Fin Historia -->
-
-    <!-- Banner -->
-    <picture>
-      <source media="(min-width: 1024px)" srcset="img/sonido-banner.png" />
-      <img
-        src="img/sonido-banner-tablet.png"
-        class="d-block w-100"
-        alt="Banner con el texto sonido impresionante"
-      />
-    </picture>
-    <!-- Fin Banner -->
-
-    <!-- Siente La Musica -->
-    <section
-      id="siente-musica"
-      class="d-flex flex-column flex-lg-row align-items-center justify-content-center pb-5"
-    >
-      <div class="p-5">
-        <h2 class="m-0 pb-5">Siente la música</h2>
-        <p>
-          Estos auriculares ofrecen una
-          <strong>reproducción premium con acústica afinada</strong>
-          que maximiza la claridad, amplitud y equilibrio del sonido.
-        </p>
-        <p>
-          Las almohadillas de las orejas con amortiguación proporcionan un
-          <strong>aislamiento efectivo del ruido exterior</strong>, lo que te
-          sumerge en un sonido envolvente para que puedas experimentar lamúsica
-          tal como fue concebida.
-        </p>
-        <p>
-          Beats Solo3 Wireless ofrece una
-          <strong>asombrosa duración de batería de hasta 40 horas</strong>,
-          impulsada por la eficiencia del chip Apple W1.
-        </p>
-        <button class="btn btn-danger fw-medium mas">Leer Mas</button>
-      </div>
-      <img
-        class="auris-banner"
-        src="img/auris-banner-mobile.png"
-        alt="auriculares negros"
-      />
-    </section>
-    <!-- Fin Siente La Musica -->
-
-    <!-- Productos Estrella -->
-    <svg
-      class="svg-top"
-      id="wave-top"
-      style="transform: rotate(0deg); transition: 0.3s"
-      viewBox="0 0 1440 100"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <defs>
-        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-          <stop stop-color="rgba(243, 243, 243, 1)" offset="0%"></stop>
-          <stop stop-color="rgba(243, 243, 243, 1)" offset="100%"></stop>
-        </linearGradient>
-      </defs>
-      <path
-        style="transform: translate(0, 0px); opacity: 1"
-        fill="url(#sw-gradient-0)"
-        d="M0,0L80,13.3C160,27,320,53,480,53.3C640,53,800,27,960,23.3C1120,20,1280,40,1440,53.3C1600,67,1760,73,1920,76.7C2080,80,2240,80,2400,68.3C2560,57,2720,33,2880,21.7C3040,10,3200,10,3360,10C3520,10,3680,10,3840,13.3C4000,17,4160,23,4320,31.7C4480,40,4640,50,4800,50C4960,50,5120,40,5280,35C5440,30,5600,30,5760,36.7C5920,43,6080,57,6240,56.7C6400,57,6560,43,6720,41.7C6880,40,7040,50,7200,48.3C7360,47,7520,33,7680,35C7840,37,8000,53,8160,63.3C8320,73,8480,77,8640,78.3C8800,80,8960,80,9120,81.7C9280,83,9440,87,9600,80C9760,73,9920,57,10080,55C10240,53,10400,67,10560,71.7C10720,77,10880,73,11040,60C11200,47,11360,23,11440,11.7L11520,0L11520,100L11440,100C11360,100,11200,100,11040,100C10880,100,10720,100,10560,100C10400,100,10240,100,10080,100C9920,100,9760,100,9600,100C9440,100,9280,100,9120,100C8960,100,8800,100,8640,100C8480,100,8320,100,8160,100C8000,100,7840,100,7680,100C7520,100,7360,100,7200,100C7040,100,6880,100,6720,100C6560,100,6400,100,6240,100C6080,100,5920,100,5760,100C5600,100,5440,100,5280,100C5120,100,4960,100,4800,100C4640,100,4480,100,4320,100C4160,100,4000,100,3840,100C3680,100,3520,100,3360,100C3200,100,3040,100,2880,100C2720,100,2560,100,2400,100C2240,100,2080,100,1920,100C1760,100,1600,100,1440,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z"
-      ></path>
-    </svg>
-    <section id="productos-estrella">
-      <h2 class="pb-5 ps-5">Productos Estrella</h2>
-      <div class="flex-wrap justify-content-center row p-5">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
-        >
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              srcset="img/BEATS-SOLO3-WIRELESS-BLUE-1.png"
-            />
-            <img
-              src="img/BEATS-SOLO3-WIRELESS-BLUE-Tablet.png"
-              alt="Auriculares BEATS SOLO3 Azul"
-            />
-          </picture>
-          <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - BLUE</h3>
-          <p class="precio">$289.99</p>
-          <button
-            data-bs-toggle="modal"
-            data-bs-target="#modal-blue"
-            class="comprar"
-          >
-            Comprar
-          </button>
-          <!-- modal -->
-          <div
-            class="modal fade"
-            id="modal-blue"
-            tabindex="-1"
-            aria-labelledby="AurisBlue"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="modal-title fs-5" id="AurisBlue">
-                    BEAT SOLO3 WIRELESS - BLUE
-                  </h3>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="img"> 
-                    <picture class="d-flex justify-content-center">
-                      <source
-                        media="(min-width: 992px)"
-                        srcset="img/BEATS-SOLO3-WIRELESS-BLUE-1.png"
-                      />
-                      <img
-                        src="img/BEATS-SOLO3-WIRELESS-BLUE-Tablet.png"
-                        alt="Auriculares BEATS SOLO3 Azul"
-                      />
-                    </picture>
-                  </div>
-                  <div>
-                    <ul>
-                      <li>Cancelación Adaptativa de Ruido pura (pure ANC) bloquea activamente el ruido externo.</li>
-                      <li>La calibración de audio en tiempo real conserva una experiencia de escucha de óptima calidad.</li>
-                      <li>Hasta 22 horas de duración de la batería permite una reproducción inalámbrica todo el día con todas las funciones.</li>
-                      <li>Chip Apple W1 para conectividad inalámbrica Bluetooth Class 1 y eficiencia de la batería.</li>
-                      <li>Con carga rápida, 10 minutos de carga te da 3 horas de reproducción cuando la batería está baja.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="justify-content-between modal-footer">
-                  <h3>Precio $289.99</h3>
-                  <div>
-                    <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Cerrar
-                  </button>
-                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="p-5">
+          <h2 class="m-0 pb-5">Siente la música</h2>
+          <p>
+            Estos auriculares ofrecen una
+            <strong>reproducción premium con acústica afinada</strong>
+            que maximiza la claridad, amplitud y equilibrio del sonido.
+          </p>
+          <p>
+            Las almohadillas de las orejas con amortiguación proporcionan un
+            <strong>aislamiento efectivo del ruido exterior</strong>, lo que te
+            sumerge en un sonido envolvente para que puedas experimentar
+            lamúsica tal como fue concebida.
+          </p>
+          <p>
+            Beats Solo3 Wireless ofrece una
+            <strong>asombrosa duración de batería de hasta 40 horas</strong>,
+            impulsada por la eficiencia del chip Apple W1.
+          </p>
+          <button class="btn btn-danger fw-medium mas">Leer Mas</button>
         </div>
-        <div
-          class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
-        >
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              srcset="img/BEATS-SOLO3-WIRELESS-ROSE-1.png"
-            />
-            <img
-              src="img/BEATS-SOLO3-WIRELESS-ROSE-Tablet.png"
-              alt="Auriculares BEAT SOLO3 Rosa"
-            />
-          </picture>
-          <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - ROSE</h3>
-          <p class="precio">$289.95</p>
-          <button
-            data-bs-toggle="modal"
-            data-bs-target="#modal-rosee"
-            class="comprar"
-          >
-            Comprar
-          </button>
-          <!-- modal -->
-          <div
-            class="modal fade"
-            id="modal-rosee"
-            tabindex="-1"
-            aria-labelledby="AurisRose"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="modal-title fs-5" id="AurisRose">
-                    BEAT SOLO3 WIRELESS - ROSE
-                  </h3>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="img"> 
-                    <picture class="d-flex justify-content-center">
-                      <source
-              media="(min-width: 992px)"
-              srcset="img/BEATS-SOLO3-WIRELESS-ROSE-1.png"
-            />
-            <img
-              src="img/BEATS-SOLO3-WIRELESS-ROSE-Tablet.png"
-              alt="Auriculares BEAT SOLO3 Rosa"
-            />
-                    </picture>
-                  </div>
-                  <div>
-                    <ul>
-                      <li>Cancelación Adaptativa de Ruido pura (pure ANC) bloquea activamente el ruido externo.</li>
-                      <li>La calibración de audio en tiempo real conserva una experiencia de escucha de óptima calidad.</li>
-                      <li>Hasta 22 horas de duración de la batería permite una reproducción inalámbrica todo el día con todas las funciones.</li>
-                      <li>Chip Apple W1 para conectividad inalámbrica Bluetooth Class 1 y eficiencia de la batería.</li>
-                      <li>Con carga rápida, 10 minutos de carga te da 3 horas de reproducción cuando la batería está baja.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="justify-content-between modal-footer">
-                  <h3>Precio $289.95</h3>
-                  <div>
-                    <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Cerrar
-                  </button>
-                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
-        >
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              srcset="img/BEATS-SOLO3-WIRELESS-RED-1.png"
-            />
-            <img
-              src="img/BEATS-SOLO3-WIRELESS-RED-Tablet.png"
-              alt="Auriculares BEAT SOLO3 Rojo"
-            />
-          </picture>
-          <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - RED</h3>
-          <p class="precio">$247.49</p>
-          <button
-            data-bs-toggle="modal"
-            data-bs-target="#modal-red"
-            class="comprar"
-          >
-            Comprar
-          </button>
+        <img
+          class="auris-banner"
+          src="img/auris-banner-mobile.png"
+          alt="auriculares negros"
+        />
+      </section>
+      <!-- Fin Siente La Musica -->
 
-          <!-- modal -->
-          <div
-            class="modal fade"
-            id="modal-red"
-            tabindex="-1"
-            aria-labelledby="AurisRed"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="modal-title fs-5" id="AurisRed">
-                    BEAT SOLO3 WIRELESS - RED
-                  </h3>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="img"> 
-                    <picture class="d-flex justify-content-center">
-                      <source
-              media="(min-width: 992px)"
-              srcset="img/BEATS-SOLO3-WIRELESS-RED-1.png"
-            />
-            <img
-              src="img/BEATS-SOLO3-WIRELESS-RED-Tablet.png"
-              alt="Auriculares BEAT SOLO3 Rojo"
-            />
-                    </picture>
-                  </div>
-                  <div>
-                    <ul>
-                      <li>Cancelación Adaptativa de Ruido pura (pure ANC) bloquea activamente el ruido externo.</li>
-                      <li>La calibración de audio en tiempo real conserva una experiencia de escucha de óptima calidad.</li>
-                      <li>Hasta 22 horas de duración de la batería permite una reproducción inalámbrica todo el día con todas las funciones.</li>
-                      <li>Chip Apple W1 para conectividad inalámbrica Bluetooth Class 1 y eficiencia de la batería.</li>
-                      <li>Con carga rápida, 10 minutos de carga te da 3 horas de reproducción cuando la batería está baja.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="justify-content-between modal-footer">
-                  <h3>Precio $247.49</h3>
-                  <div>
-                    <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Cerrar
-                  </button>
-                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
-        >
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              srcset="img/BEATS-SOLO3-WIRELESS-WHITE-1.png"
-            />
-            <img
-              src="img/BEATS-SOLO3-WIRELESS-WHITE-Tablet.png"
-              alt="Auriculares BEAT SOLO3 Blanco"
-            />
-          </picture>
-          <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - WHITE</h3>
-          <p class="precio">$349.95</p>
-          <button
-            data-bs-toggle="modal"
-            data-bs-target="#modal-white"
-            class="comprar"
-          >
-            Comprar
-          </button>
-
-          <!-- modal -->
-          <div
-            class="modal fade"
-            id="modal-white"
-            tabindex="-1"
-            aria-labelledby="AurisWhite"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="modal-title fs-5" id="AurisWhite">
-                    BEAT SOLO3 WIRELESS - WHITE
-                  </h3>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="img"> 
-                    <picture class="d-flex justify-content-center">
-                      <source
-                        media="(min-width: 992px)"
-                        srcset="img/BEATS-SOLO3-WIRELESS-WHITE-1.png"
-                      />
-            <img
-              src="img/BEATS-SOLO3-WIRELESS-WHITE-Tablet.png"
-              alt="Auriculares BEAT SOLO3 Blanco"
-            />  
-                    </picture>
-                  </div>
-                  <div>
-                    <ul>
-                      <li>Cancelación Adaptativa de Ruido pura (pure ANC) bloquea activamente el ruido externo.</li>
-                      <li>La calibración de audio en tiempo real conserva una experiencia de escucha de óptima calidad.</li>
-                      <li>Hasta 22 horas de duración de la batería permite una reproducción inalámbrica todo el día con todas las funciones.</li>
-                      <li>Chip Apple W1 para conectividad inalámbrica Bluetooth Class 1 y eficiencia de la batería.</li>
-                      <li>Con carga rápida, 10 minutos de carga te da 3 horas de reproducción cuando la batería está baja.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="justify-content-between modal-footer">
-                  <h3>Precio $349.95</h3>
-                  <div>
-                    <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Cerrar
-                  </button>
-                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
-        >
-          <picture>
-            <source
-              media="(min-width: 992px)"
-              srcset="img/BEATS-SOLO3-WIRELESS-BLACK-1.png"
-            />
-            <img
-              src="img/BEATS-SOLO3-WIRELESS-BLACK-Tablet.png"
-              alt="Auriculares BEAT SOLO3 Negro"
-            />
-          </picture>
-          <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - BLACK</h3>
-          <p class="precio">$299.95</p>
-          <button
-            data-bs-toggle="modal"
-            data-bs-target="#modal-black"
-            class="comprar"
-          >
-            Comprar
-          </button>
-
-          <!-- modal -->
-          <div
-            class="modal fade"
-            id="modal-black"
-            tabindex="-1"
-            aria-labelledby="AurisBlack"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="modal-title fs-5" id="AurisBlack">
-                    BEAT SOLO3 WIRELESS - BLACK
-                  </h3>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="img"> 
-                    <picture class="d-flex justify-content-center">
-                      <source
-              media="(min-width: 992px)"
-              srcset="img/BEATS-SOLO3-WIRELESS-BLACK-1.png"
-            />
-            <img
-              src="img/BEATS-SOLO3-WIRELESS-BLACK-Tablet.png"
-              alt="Auriculares BEAT SOLO3 Negro"
-            />
-                    </picture>
-                  </div>
-                  <div>
-                    <ul>
-                      <li>Cancelación Adaptativa de Ruido pura (pure ANC) bloquea activamente el ruido externo.</li>
-                      <li>La calibración de audio en tiempo real conserva una experiencia de escucha de óptima calidad.</li>
-                      <li>Hasta 22 horas de duración de la batería permite una reproducción inalámbrica todo el día con todas las funciones.</li>
-                      <li>Chip Apple W1 para conectividad inalámbrica Bluetooth Class 1 y eficiencia de la batería.</li>
-                      <li>Con carga rápida, 10 minutos de carga te da 3 horas de reproducción cuando la batería está baja.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="justify-content-between modal-footer">
-                  <h3>Precio $299.95</h3>
-                  <div>
-                    <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Cerrar
-                  </button>
-                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Fotos -->
+      <!-- Productos Estrella -->
       <svg
-        class="svg-bottom"
-        id="wave-bottom"
-        style="transform: rotate(180deg); transition: 0.3s"
+        class="svg-top"
+        id="wave-top"
+        style="transform: rotate(0deg); transition: 0.3s"
         viewBox="0 0 1440 100"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
-          <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
             <stop stop-color="rgba(243, 243, 243, 1)" offset="0%"></stop>
             <stop stop-color="rgba(243, 243, 243, 1)" offset="100%"></stop>
           </linearGradient>
@@ -671,122 +229,671 @@
           d="M0,0L80,13.3C160,27,320,53,480,53.3C640,53,800,27,960,23.3C1120,20,1280,40,1440,53.3C1600,67,1760,73,1920,76.7C2080,80,2240,80,2400,68.3C2560,57,2720,33,2880,21.7C3040,10,3200,10,3360,10C3520,10,3680,10,3840,13.3C4000,17,4160,23,4320,31.7C4480,40,4640,50,4800,50C4960,50,5120,40,5280,35C5440,30,5600,30,5760,36.7C5920,43,6080,57,6240,56.7C6400,57,6560,43,6720,41.7C6880,40,7040,50,7200,48.3C7360,47,7520,33,7680,35C7840,37,8000,53,8160,63.3C8320,73,8480,77,8640,78.3C8800,80,8960,80,9120,81.7C9280,83,9440,87,9600,80C9760,73,9920,57,10080,55C10240,53,10400,67,10560,71.7C10720,77,10880,73,11040,60C11200,47,11360,23,11440,11.7L11520,0L11520,100L11440,100C11360,100,11200,100,11040,100C10880,100,10720,100,10560,100C10400,100,10240,100,10080,100C9920,100,9760,100,9600,100C9440,100,9280,100,9120,100C8960,100,8800,100,8640,100C8480,100,8320,100,8160,100C8000,100,7840,100,7680,100C7520,100,7360,100,7200,100C7040,100,6880,100,6720,100C6560,100,6400,100,6240,100C6080,100,5920,100,5760,100C5600,100,5440,100,5280,100C5120,100,4960,100,4800,100C4640,100,4480,100,4320,100C4160,100,4000,100,3840,100C3680,100,3520,100,3360,100C3200,100,3040,100,2880,100C2720,100,2560,100,2400,100C2240,100,2080,100,1920,100C1760,100,1600,100,1440,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z"
         ></path>
       </svg>
-      <div class="fotos-auris-container row">
-        <div class="col-sm-6 col-12">
-          <picture>
-            <source media="(min-width: 992px)" srcset="img/blanco.png" />
-            <img
-              class="foto-auris-larga"
-              src="img/blanco-mobile.png"
-              alt="Foto de cerca a un auricular Blanco"
-            />
-          </picture>
-        </div>
-        <div class="col-sm-6 col-12">
-          <picture>
-            <source media="(min-width: 992px)" srcset="img/negro.png" />
-            <img
-              class="foto-auris"
-              src="img/negro-mobile.png"
-              alt="Foto de cerca a un auricular Negro"
-            />
-          </picture>
-          <picture>
-            <source media="(min-width: 922px)" srcset="img/blanco2.png" />
-            <img
-              class="foto-auris"
-              src="img/blanco2-mobile.png"
-              alt="Foto de cerca a un auricular Blanco"
-            />
-          </picture>
-        </div>
-      </div>
-    </section>
-    <!-- Fin Productos Estrella -->
+      <section id="productos-estrella">
+        <h2 class="pb-5 ps-5">Productos Estrella</h2>
+        <div class="flex-wrap justify-content-center row p-5">
+          <article
+            class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
+          >
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="img/BEATS-SOLO3-WIRELESS-BLUE-1.png"
+              />
+              <img
+                src="img/BEATS-SOLO3-WIRELESS-BLUE-Tablet.png"
+                alt="Auriculares BEATS SOLO3 Azul"
+              />
+            </picture>
+            <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - BLUE</h3>
+            <p class="precio">$289.99</p>
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#modal-blue"
+              class="comprar"
+            >
+              Comprar
+            </button>
+            <!-- modal -->
+            <div
+              class="modal fade"
+              id="modal-blue"
+              tabindex="-1"
+              aria-labelledby="AurisBlue"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="AurisBlue">
+                      BEAT SOLO3 WIRELESS - BLUE
+                    </h3>
+                    <button
+                      type="button"
+                      class="btn-close x-cerrar"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img">
+                      <picture class="d-flex justify-content-center">
+                        <source
+                          media="(min-width: 992px)"
+                          srcset="img/BEATS-SOLO3-WIRELESS-BLUE-1.png"
+                        />
+                        <img
+                          src="img/BEATS-SOLO3-WIRELESS-BLUE-Tablet.png"
+                          alt="Auriculares BEATS SOLO3 Azul"
+                        />
+                      </picture>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>
+                          Cancelación Adaptativa de Ruido pura (pure ANC)
+                          bloquea activamente el ruido externo.
+                        </li>
+                        <li>
+                          La calibración de audio en tiempo real conserva una
+                          experiencia de escucha de óptima calidad.
+                        </li>
+                        <li>
+                          Hasta 22 horas de duración de la batería permite una
+                          reproducción inalámbrica todo el día con todas las
+                          funciones.
+                        </li>
+                        <li>
+                          Chip Apple W1 para conectividad inalámbrica Bluetooth
+                          Class 1 y eficiencia de la batería.
+                        </li>
+                        <li>
+                          Con carga rápida, 10 minutos de carga te da 3 horas de
+                          reproducción cuando la batería está baja.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="justify-content-between modal-footer">
+                    <h3>Precio $289.99</h3>
+                    <div>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Agregar al carrito
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article
+            class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
+          >
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="img/BEATS-SOLO3-WIRELESS-ROSE-1.png"
+              />
+              <img
+                src="img/BEATS-SOLO3-WIRELESS-ROSE-Tablet.png"
+                alt="Auriculares BEAT SOLO3 Rosa"
+              />
+            </picture>
+            <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - ROSE</h3>
+            <p class="precio">$289.95</p>
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#modal-rosee"
+              class="comprar"
+            >
+              Comprar
+            </button>
+            <!-- modal -->
+            <div
+              class="modal fade"
+              id="modal-rosee"
+              tabindex="-1"
+              aria-labelledby="AurisRose"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="AurisRose">
+                      BEAT SOLO3 WIRELESS - ROSE
+                    </h3>
+                    <button
+                      type="button"
+                      class="btn-close x-cerrar"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img">
+                      <picture class="d-flex justify-content-center">
+                        <source
+                          media="(min-width: 992px)"
+                          srcset="img/BEATS-SOLO3-WIRELESS-ROSE-1.png"
+                        />
+                        <img
+                          src="img/BEATS-SOLO3-WIRELESS-ROSE-Tablet.png"
+                          alt="Auriculares BEAT SOLO3 Rosa"
+                        />
+                      </picture>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>
+                          Cancelación Adaptativa de Ruido pura (pure ANC)
+                          bloquea activamente el ruido externo.
+                        </li>
+                        <li>
+                          La calibración de audio en tiempo real conserva una
+                          experiencia de escucha de óptima calidad.
+                        </li>
+                        <li>
+                          Hasta 22 horas de duración de la batería permite una
+                          reproducción inalámbrica todo el día con todas las
+                          funciones.
+                        </li>
+                        <li>
+                          Chip Apple W1 para conectividad inalámbrica Bluetooth
+                          Class 1 y eficiencia de la batería.
+                        </li>
+                        <li>
+                          Con carga rápida, 10 minutos de carga te da 3 horas de
+                          reproducción cuando la batería está baja.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="justify-content-between modal-footer">
+                    <h3>Precio $289.95</h3>
+                    <div>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Agregar al carrito
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article
+            class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
+          >
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="img/BEATS-SOLO3-WIRELESS-RED-1.png"
+              />
+              <img
+                src="img/BEATS-SOLO3-WIRELESS-RED-Tablet.png"
+                alt="Auriculares BEAT SOLO3 Rojo"
+              />
+            </picture>
+            <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - RED</h3>
+            <p class="precio">$247.49</p>
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#modal-red"
+              class="comprar"
+            >
+              Comprar
+            </button>
 
-    <!-- Caracteristicas -->
-    <section id="caracteristicas" class="p-4 p-md-5">
-      <h2>Caracteristicas</h2>
-      <section
-        class="d-flex justify-content-around align-items-center flex-column flex-md-row p-4 p-md-5"
-      >
-        <img
-          class="caracteristicas-img"
-          src="img/solo3-caract.png"
-          alt="Auriculares solo 3 negro"
-        />
-        <div class="informacion-fabricante mt-4">
-          <h3>INFORMACIÓN DEL FABRICANTE</h3>
-          <ul>
-            <li>Factor de forma: Sobre la oreja</li>
-            <li>Conexiones: Bluetooth, Inalámbrico</li>
-            <li>Baterías: Ion de litio recargable</li>
-            <li>Altura: 7.8 pulgadas / 19.8 centímetros</li>
-            <li>Peso: 7.58 onzas / 215 gramos</li>
-            <li>Bluetooth estéreo</li>
-            <li>Reproducción pasiva a través del cable RemoteTalk</li>
-          </ul>
+            <!-- modal -->
+            <div
+              class="modal fade"
+              id="modal-red"
+              tabindex="-1"
+              aria-labelledby="AurisRed"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="AurisRed">
+                      BEAT SOLO3 WIRELESS - RED
+                    </h3>
+                    <button
+                      type="button"
+                      class="btn-close x-cerrar"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img">
+                      <picture class="d-flex justify-content-center">
+                        <source
+                          media="(min-width: 992px)"
+                          srcset="img/BEATS-SOLO3-WIRELESS-RED-1.png"
+                        />
+                        <img
+                          src="img/BEATS-SOLO3-WIRELESS-RED-Tablet.png"
+                          alt="Auriculares BEAT SOLO3 Rojo"
+                        />
+                      </picture>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>
+                          Cancelación Adaptativa de Ruido pura (pure ANC)
+                          bloquea activamente el ruido externo.
+                        </li>
+                        <li>
+                          La calibración de audio en tiempo real conserva una
+                          experiencia de escucha de óptima calidad.
+                        </li>
+                        <li>
+                          Hasta 22 horas de duración de la batería permite una
+                          reproducción inalámbrica todo el día con todas las
+                          funciones.
+                        </li>
+                        <li>
+                          Chip Apple W1 para conectividad inalámbrica Bluetooth
+                          Class 1 y eficiencia de la batería.
+                        </li>
+                        <li>
+                          Con carga rápida, 10 minutos de carga te da 3 horas de
+                          reproducción cuando la batería está baja.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="justify-content-between modal-footer">
+                    <h3>Precio $247.49</h3>
+                    <div>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Agregar al carrito
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article
+            class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
+          >
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="img/BEATS-SOLO3-WIRELESS-WHITE-1.png"
+              />
+              <img
+                src="img/BEATS-SOLO3-WIRELESS-WHITE-Tablet.png"
+                alt="Auriculares BEAT SOLO3 Blanco"
+              />
+            </picture>
+            <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - WHITE</h3>
+            <p class="precio">$349.95</p>
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#modal-white"
+              class="comprar"
+            >
+              Comprar
+            </button>
 
-          <h3>OTRAS CARACTERÍSTICAS</h3>
-          <ul>
-            <li>Bluetooth</li>
-            <li>Controles de llamadas y música integrados</li>
-            <li>Control de volumen integrado</li>
-            <li>Micrófono para una claridad óptima en las llamadas</li>
-            <li>Aislamiento de ruido</li>
-            <li>Indicador de carga LED</li>
-            <li>Carga a través de cable Micro-USB</li>
-          </ul>
+            <!-- modal -->
+            <div
+              class="modal fade"
+              id="modal-white"
+              tabindex="-1"
+              aria-labelledby="AurisWhite"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="AurisWhite">
+                      BEAT SOLO3 WIRELESS - WHITE
+                    </h3>
+                    <button
+                      type="button"
+                      class="btn-close x-cerrar"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img">
+                      <picture class="d-flex justify-content-center">
+                        <source
+                          media="(min-width: 992px)"
+                          srcset="img/BEATS-SOLO3-WIRELESS-WHITE-1.png"
+                        />
+                        <img
+                          src="img/BEATS-SOLO3-WIRELESS-WHITE-Tablet.png"
+                          alt="Auriculares BEAT SOLO3 Blanco"
+                        />
+                      </picture>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>
+                          Cancelación Adaptativa de Ruido pura (pure ANC)
+                          bloquea activamente el ruido externo.
+                        </li>
+                        <li>
+                          La calibración de audio en tiempo real conserva una
+                          experiencia de escucha de óptima calidad.
+                        </li>
+                        <li>
+                          Hasta 22 horas de duración de la batería permite una
+                          reproducción inalámbrica todo el día con todas las
+                          funciones.
+                        </li>
+                        <li>
+                          Chip Apple W1 para conectividad inalámbrica Bluetooth
+                          Class 1 y eficiencia de la batería.
+                        </li>
+                        <li>
+                          Con carga rápida, 10 minutos de carga te da 3 horas de
+                          reproducción cuando la batería está baja.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="justify-content-between modal-footer">
+                    <h3>Precio $349.95</h3>
+                    <div>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Agregar al carrito
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article
+            class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 col-lg-4"
+          >
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="img/BEATS-SOLO3-WIRELESS-BLACK-1.png"
+              />
+              <img
+                src="img/BEATS-SOLO3-WIRELESS-BLACK-Tablet.png"
+                alt="Auriculares BEAT SOLO3 Negro"
+              />
+            </picture>
+            <h3 class="nombre-auri text-center">BEAT SOLO3 WIRELESS - BLACK</h3>
+            <p class="precio">$299.95</p>
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#modal-black"
+              class="comprar"
+            >
+              Comprar
+            </button>
+
+            <!-- modal -->
+            <div
+              class="modal fade"
+              id="modal-black"
+              tabindex="-1"
+              aria-labelledby="AurisBlack"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="AurisBlack">
+                      BEAT SOLO3 WIRELESS - BLACK
+                    </h3>
+                    <button
+                      type="button"
+                      class="btn-close x-cerrar"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img">
+                      <picture class="d-flex justify-content-center">
+                        <source
+                          media="(min-width: 992px)"
+                          srcset="img/BEATS-SOLO3-WIRELESS-BLACK-1.png"
+                        />
+                        <img
+                          src="img/BEATS-SOLO3-WIRELESS-BLACK-Tablet.png"
+                          alt="Auriculares BEAT SOLO3 Negro"
+                        />
+                      </picture>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>
+                          Cancelación Adaptativa de Ruido pura (pure ANC)
+                          bloquea activamente el ruido externo.
+                        </li>
+                        <li>
+                          La calibración de audio en tiempo real conserva una
+                          experiencia de escucha de óptima calidad.
+                        </li>
+                        <li>
+                          Hasta 22 horas de duración de la batería permite una
+                          reproducción inalámbrica todo el día con todas las
+                          funciones.
+                        </li>
+                        <li>
+                          Chip Apple W1 para conectividad inalámbrica Bluetooth
+                          Class 1 y eficiencia de la batería.
+                        </li>
+                        <li>
+                          Con carga rápida, 10 minutos de carga te da 3 horas de
+                          reproducción cuando la batería está baja.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="justify-content-between modal-footer">
+                    <h3>Precio $299.95</h3>
+                    <div>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Agregar al carrito
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- Fotos -->
+        <svg
+          class="svg-bottom"
+          id="wave-bottom"
+          style="transform: rotate(180deg); transition: 0.3s"
+          viewBox="0 0 1440 100"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(243, 243, 243, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(243, 243, 243, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,0L80,13.3C160,27,320,53,480,53.3C640,53,800,27,960,23.3C1120,20,1280,40,1440,53.3C1600,67,1760,73,1920,76.7C2080,80,2240,80,2400,68.3C2560,57,2720,33,2880,21.7C3040,10,3200,10,3360,10C3520,10,3680,10,3840,13.3C4000,17,4160,23,4320,31.7C4480,40,4640,50,4800,50C4960,50,5120,40,5280,35C5440,30,5600,30,5760,36.7C5920,43,6080,57,6240,56.7C6400,57,6560,43,6720,41.7C6880,40,7040,50,7200,48.3C7360,47,7520,33,7680,35C7840,37,8000,53,8160,63.3C8320,73,8480,77,8640,78.3C8800,80,8960,80,9120,81.7C9280,83,9440,87,9600,80C9760,73,9920,57,10080,55C10240,53,10400,67,10560,71.7C10720,77,10880,73,11040,60C11200,47,11360,23,11440,11.7L11520,0L11520,100L11440,100C11360,100,11200,100,11040,100C10880,100,10720,100,10560,100C10400,100,10240,100,10080,100C9920,100,9760,100,9600,100C9440,100,9280,100,9120,100C8960,100,8800,100,8640,100C8480,100,8320,100,8160,100C8000,100,7840,100,7680,100C7520,100,7360,100,7200,100C7040,100,6880,100,6720,100C6560,100,6400,100,6240,100C6080,100,5920,100,5760,100C5600,100,5440,100,5280,100C5120,100,4960,100,4800,100C4640,100,4480,100,4320,100C4160,100,4000,100,3840,100C3680,100,3520,100,3360,100C3200,100,3040,100,2880,100C2720,100,2560,100,2400,100C2240,100,2080,100,1920,100C1760,100,1600,100,1440,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z"
+          ></path>
+        </svg>
+        <div class="fotos-auris-container row">
+          <div class="col-sm-6 col-12">
+            <picture>
+              <source media="(min-width: 992px)" srcset="img/blanco.png" />
+              <img
+                class="foto-auris-larga"
+                src="img/blanco-mobile.png"
+                alt="Foto de cerca a un auricular Blanco"
+              />
+            </picture>
+          </div>
+          <div class="col-sm-6 col-12">
+            <picture>
+              <source media="(min-width: 992px)" srcset="img/negro.png" />
+              <img
+                class="foto-auris"
+                src="img/negro-mobile.png"
+                alt="Foto de cerca a un auricular Negro"
+              />
+            </picture>
+            <picture>
+              <source media="(min-width: 922px)" srcset="img/blanco2.png" />
+              <img
+                class="foto-auris"
+                src="img/blanco2-mobile.png"
+                alt="Foto de cerca a un auricular Blanco"
+              />
+            </picture>
+          </div>
         </div>
       </section>
-    </section>
-    <!-- Fin Caracteristicas -->
+      <!-- Fin Productos Estrella -->
 
-    <!-- Contacto -->
-    <section class="bg-light p-5" id="contactanos">
-      <h2 class="text-center">Contacto</h2>
-      <form method="post" action="/" class="form container-sm" id="formContacto">
-        <div class="mb-3 pt-3">
-          <label for="FormName" class="form-label">Nombre</label>
-          <input
-            type="text"
-            class="form-control"
-            id="FormName"
-            placeholder="ej Agustin"
-            required
+      <!-- Caracteristicas -->
+      <section id="caracteristicas" class="p-4 p-md-5">
+        <h2>Caracteristicas</h2>
+        <section
+          class="d-flex justify-content-around align-items-center flex-column flex-md-row p-4 p-md-5"
+        >
+          <img
+            class="caracteristicas-img"
+            src="img/solo3-caract.png"
+            alt="Auriculares solo 3 negro"
           />
-        </div>
-        <div class="mb-3">
-          <label for="FormEmail" class="form-label">Dirección de Email</label>
-          <input
-            type="email"
-            class="form-control"
-            id="FormEmail"
-            placeholder=" ej nombre@gmail.com"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="FormNum" class="form-label">Telefono</label>
-          <input
-            type="tel"
-            class="form-control"
-            id="FormNum"
-            placeholder="ej 1173984638"
-            required
-          />
-        </div>
-        <div class="mb-3 pb-3">
-          <label for="FormCom" class="form-label"
-            >Dejanos tu comentarios y preguntas
-          </label>
-          <textarea class="form-control" id="FormCom" rows="3"></textarea>
-        </div>
-        <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn btn-danger" type="submit">Enviar</button>
-        </div>
-      </form>
-    </section>
+          <div class="informacion-fabricante mt-4">
+            <h3>INFORMACIÓN DEL FABRICANTE</h3>
+            <ul>
+              <li>Factor de forma: Sobre la oreja</li>
+              <li>Conexiones: Bluetooth, Inalámbrico</li>
+              <li>Baterías: Ion de litio recargable</li>
+              <li>Altura: 7.8 pulgadas / 19.8 centímetros</li>
+              <li>Peso: 7.58 onzas / 215 gramos</li>
+              <li>Bluetooth estéreo</li>
+              <li>Reproducción pasiva a través del cable RemoteTalk</li>
+            </ul>
+
+            <h3>OTRAS CARACTERÍSTICAS</h3>
+            <ul>
+              <li>Bluetooth</li>
+              <li>Controles de llamadas y música integrados</li>
+              <li>Control de volumen integrado</li>
+              <li>Micrófono para una claridad óptima en las llamadas</li>
+              <li>Aislamiento de ruido</li>
+              <li>Indicador de carga LED</li>
+              <li>Carga a través de cable Micro-USB</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <!-- Fin Caracteristicas -->
+
+      <!-- Contacto -->
+      <section class="bg-light p-5" id="contactanos">
+        <h2 class="text-center">Contacto</h2>
+        <form
+          method="post"
+          action="/"
+          class="form container-sm"
+          id="formContacto"
+        >
+          <div class="mb-3 pt-3">
+            <label for="FormName" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="FormName"
+              placeholder="ej Agustin"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="FormEmail" class="form-label">Dirección de Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="FormEmail"
+              placeholder=" ej nombre@gmail.com"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="FormNum" class="form-label">Telefono</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="FormNum"
+              placeholder="ej 1173984638"
+              required
+            />
+          </div>
+          <div class="mb-3 pb-3">
+            <label for="FormCom" class="form-label"
+              >Dejanos tu comentarios y preguntas
+            </label>
+            <textarea class="form-control" id="FormCom" rows="3"></textarea>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn btn-danger" type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer
@@ -837,6 +944,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
-
   </body>
 </html>

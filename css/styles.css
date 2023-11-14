@@ -12,7 +12,7 @@ font-family: 'Roboto Slab', serif;*/
 .row {
   --bs-gutter-x: 0px;
 }
-h1 {
+.titulo {
   font-family: "Roboto Slab", serif;
   font-weight: bold;
   font-size: 30px;
@@ -127,6 +127,10 @@ p {
 #productos-estrella > section > div > p,
 button {
   margin-bottom: 20px;
+}
+
+.x-cerrar {
+  text-indent: -9999px;
 }
 
 svg > path {
