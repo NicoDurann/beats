@@ -1,0 +1,11 @@
+Escuela de Arte Multimedial Da Vinci
+CARRERA: Diseño y Programación Web
+MATERIA: Interacción con Dispositivos Móviles
+TRABAJO PRÁCTICO: Examen Parcial 2
+PROFESOR: D’Addezio Alejandro
+ALUMNO: Nicolás Durán, Joaquin DI cio, Maria Sol Ameijeira
+CUATRIMESTRE: 2do Cuatrimestre
+COMISIÓN: DWT2AV
+TURNO: Tarde
+FECHA DE ENTREGA: 21/11/2023
+URL DEL SITIO: https://nicodurann.github.io/beats/
