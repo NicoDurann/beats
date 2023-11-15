@@ -27,7 +27,7 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
 }
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   text-indent: 1000px;
   overflow: hidden;
   line-height: 40px;
@@ -49,13 +49,13 @@ p {
   object-fit: cover;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
   text-indent: 1000px;
   overflow: hidden;
   line-height: 40px;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   text-indent: 1000px;
   overflow: hidden;
   line-height: 40px;
@@ -148,6 +148,7 @@ button {
 
 .x-cerrar {
   text-indent: -9999px;
+  overflow: hidden;
 }
 
 svg > path {
