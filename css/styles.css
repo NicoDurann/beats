@@ -27,6 +27,11 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
 }
+.navbar-toggler-icon{
+  text-indent: 1000px;
+  overflow: hidden;
+  line-height: 40px;
+}
 
 .c-item {
   max-height: 90vh;
@@ -42,6 +47,18 @@ p {
   width: 100%;
   max-height: 400px;
   object-fit: cover;
+}
+
+.carousel-control-prev-icon{
+  text-indent: 1000px;
+  overflow: hidden;
+  line-height: 40px;
+}
+
+.carousel-control-next-icon{
+  text-indent: 1000px;
+  overflow: hidden;
+  line-height: 40px;
 }
 
 #siente-musica > p {
@@ -240,7 +257,7 @@ footer > div > figure > img {
   h2 {
     font-size: 30px;
   }
-  h1 {
+  .titulo {
     font-size: 22px;
   }
   div.fotos-auris-container {
